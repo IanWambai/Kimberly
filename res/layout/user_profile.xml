@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#990000"
+    android:fadingEdge="none"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:scrollbars="none" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Hey you :-)"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/thumbLayout"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_marginRight="1.0dip"
+        android:background="@drawable/list_selector"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/ivThumbnail"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:layout_gravity="center"
+            android:layout_margin="1.0dip"
+            android:src="@drawable/profile_picture_placeholder" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Gwen Stacey"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+</LinearLayout>

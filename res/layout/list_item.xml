@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#dddddd"
+    android:padding="0.5dp" >
+
+    <LinearLayout
+        android:id="@+id/thumbTextLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="90dp"
+        android:background="@drawable/list_selector"
+        android:orientation="vertical"
+        android:paddingLeft="15.0dip"
+        android:paddingTop="5.0dip" >
+
+        <TextView
+            android:id="@+id/label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5.0dip"
+            android:text="Name"
+            android:textColor="#000000"
+            android:textSize="20.0dip"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/itemDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:textColor="#555555" />
+    </LinearLayout>
+
+</RelativeLayout>

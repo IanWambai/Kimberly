@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<color name="textColor">#000000</color>
+	<color name="textFieldColor">#000000</color>
+	<color name="textShadow">#555555</color>
+
+</resources>

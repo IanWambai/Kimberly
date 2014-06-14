@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="creationCategories">
+        <item>Journal</item>
+        <item>Movie script</item>
+        <item>Lyrics</item>
+        <item>Book</item>
+        <item>Review</item>
+        <item>News</item>
+        <item>Random</item>
+        <item>Recipe</item>
+        <item>Quotes</item>
+        <item>Poetry</item>
+        <item>Short story</item>
+        <item>Vanity Card</item>
+        <item>Blog</item>
+        <item>Instructable</item>
+        <item>Jokes</item>
+        <item>Discussion</item>
+    </string-array>
+    <string-array name="publishOptions">
+        <item>Everyone</item>
+        <item>Only friends</item>
+        <item>No one</item>
+    </string-array>
+    <string-array name="publishOptionValues">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+</resources>
